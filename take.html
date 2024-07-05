@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>welcome</h1>
+    <input type="text" id="nm1">
+    <button onclick="get_input()">submit</button>
+    <input type="text1" id="nm2">
+    <button onclick="get_input()"> submit2</button>
+    <p id="display">  </p>
+
+  <script>
+    
+    function get_input(){
+            let x=document.getElementById("nm1").value;  
+            alert(x)
+            document.getElementById("display").innerHTML=x;
+        }
+        function get_input(){
+            let x=document.getElementById("nm2").value;  
+            alert(y)
+            document.getElementById("display").innerHTML=y;
+        }
+
+  </script> -->
+
+  <h1>Welcome  Add two number </h1>
+  <input type="text" id="nm1" placeholder="Enter no1"> <br>
+  <input type="text" id="nm2" placeholder="Enter no2"> <br>
+  <button onclick="Add_no()">Add</button>
+  value=<p id="display"></p>
+
+
+  <script>
+    function Add_no(){
+        var x=parseFloat(document.getElementById("nm1").value);
+        var y=parseFloat(document.getElementById("nm2").value);
+
+        var z=x+y;
+        document.getElementById("display").innerHTML=z;
+    }
+  </script>
+</body>
+</html>
